@@ -15,7 +15,7 @@
 	</header>
 
 	<div class="container">
-		<form class="form-container" action="thanks.html" method="post">
+		<div class="form-container">
 			<div class="form-note">
 				<p>入力内容をご確認ください。<br>
 			</div>
@@ -41,7 +41,7 @@
 					</div>
 				</section>
 
-				<section class="form-table-row form-table-pr">
+				<section class="form-table-row">
 					<h2>お問い合わせ内容 <span class="required">必須</span></h2>
 					<div class="form-table-col">
 						<p>
@@ -78,8 +78,11 @@
 			<div class="form-note">
 				<p>上記内容でお間違いないようでしたら送信ボタンを押してください。</p>
 			</div>
-			<button type="submit" class="form-button" name="edit"><span>送信</span></button>
-		</form>
+			<div style="text-align: center;">
+				<button type="button" class="form-button" onclick="location.href='contact.html'"><span>戻る</span></button>
+				<button type="button" class="form-button" onclick="location.href='thanks.html'"><span>送信</span></button>
+			</div>
+		</div>
 	</div>
 </main>
 </body>
